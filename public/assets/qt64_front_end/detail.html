@@ -1,0 +1,185 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Jackie Do" />
+    <base href="http://localhost/my-traning/PHP_NC_58/project_basic/" />
+    
+    <link rel="stylesheet" type="text/css" href="templates/css/style.css" />
+    <script type="text/javascript" src="templates/scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="templates/scripts/myscript.js"></script>
+    
+    <title>PHPCB77 Project - News</title>
+</head>
+
+<body>
+
+    <div id="layout">
+        <div id="top">
+            Banner
+        </div><!-- End Top -->
+        <div id="topmenu">
+            <ul>
+                <li><a href="">Trang Chủ</a></li>
+                <li><a href="#">Giới Thiệu</a></li>
+                <li><a href="#">Tin Tức</a>
+                    <ul>
+                        <li><a href="danh-muc/29-chuyen-la.html">Chuyện lạ</a></li>
+                        <li><a href="danh-muc/22-giai-tri.html">Giải trí</a></li>
+                        <li><a href="danh-muc/18-giao-duc.html">Giáo dục</a></li>
+                        <li><a href="danh-muc/20-kinh-doanh.html">Kinh doanh</a></li>
+                        <li><a href="danh-muc/19-nhan-ai.html">Nhân ái</a></li>
+                        <li><a href="danh-muc/24-nhip-song-tre.html">Nhịp sống trẻ</a></li>
+                        <li><a href="danh-muc/23-phap-luat.html">Pháp luật</a></li>
+                        <li><a href="danh-muc/28-su-kien.html">Sự kiện</a></li>
+                        <li><a href="danh-muc/26-suc-khoe.html">Sức khỏe</a></li>
+                        <li><a href="danh-muc/27-suc-manh-so.html">Sức mạnh số</a></li>
+                        <li><a href="danh-muc/16-the-gioi.html">Thế giới</a></li>
+                        <li><a href="danh-muc/17-the-thao.html">Thể thao</a></li>
+                        <li><a href="danh-muc/25-tinh-yeu.html">Tình yêu</a></li>
+                        <li><a href="danh-muc/21-van-hoa.html">Văn hóa</a></li>
+                        <li><a href="danh-muc/15-xa-hoi.html">Xã hội</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Dịch Vụ</a></li>
+                <li><a href="#">Sản Phẩm</a></li>
+                <li><a href="#">Liên Hệ</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="left">
+                <div id="leftmenu">
+                    <h1>
+                        Menu Chính
+                    </h1>
+                    <ul>
+                        <li><a href="index.php">Trang Chủ</a></li>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Tin Tức</a>
+                            <ul>
+                                <li><a href="danh-muc/29-chuyen-la.html">Chuyện lạ</a></li>
+                                <li><a href="danh-muc/22-giai-tri.html">Giải trí</a></li>
+                                <li><a href="danh-muc/18-giao-duc.html">Giáo dục</a></li>
+                                <li><a href="danh-muc/20-kinh-doanh.html">Kinh doanh</a></li>
+                                <li><a href="danh-muc/19-nhan-ai.html">Nhân ái</a></li>
+                                <li><a href="danh-muc/24-nhip-song-tre.html">Nhịp sống trẻ</a></li>
+                                <li><a href="danh-muc/23-phap-luat.html">Pháp luật</a></li>
+                                <li><a href="danh-muc/28-su-kien.html">Sự kiện</a></li>
+                                <li><a href="danh-muc/26-suc-khoe.html">Sức khỏe</a></li>
+                                <li><a href="danh-muc/27-suc-manh-so.html">Sức mạnh số</a></li>
+                                <li><a href="danh-muc/16-the-gioi.html">Thế giới</a></li>
+                                <li><a href="danh-muc/17-the-thao.html">Thể thao</a></li>
+                                <li><a href="danh-muc/25-tinh-yeu.html">Tình yêu</a></li>
+                                <li><a href="danh-muc/21-van-hoa.html">Văn hóa</a></li>
+                                <li><a href="danh-muc/15-xa-hoi.html">Xã hội</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Dịch Vụ</a></li>
+                        <li><a href="#">Sản Phẩm</a></li>
+                        <li><a href="#">Liên Hệ</a></li>
+                    </ul>
+                </div><!-- End leftmenu -->
+                <div id="login">
+                    <h1>
+                        Đăng Nhập
+                    </h1>
+                    <div class="content">
+                        <div id="login_msg"></div>
+                        <form name="fLogin" id="fLogin" action="login.php" method="post">
+                            Username:<br />
+                            <input type="text" name="txtUser" id="txtUser" class="textbox" /><br />
+                            Password: <br />
+                            <input type="password" name="txtPass" id="txtPass" class="textbox" /><br />
+                            <input type="submit" name="btnLogin" id="btnLogin" value="Đăng nhập" />
+                        </form>
+                    </div>
+                </div>
+            </div><!-- End Left -->
+            <div id="main">
+        <div class="news">
+            <h1>Sự cuồng nhiệt của cổ động viên Việt Nam tại Rajamangala</h1>
+            <img src="images/1354015574_vn19-c6c91.jpg" class="thumbs" />
+            <p>
+                <i><b>Danh mục</b>: <a href="danh-muc/20-kinh-doanh.html">Kinh doanh</a><br />
+                <b>Nguồn</b>: Dân trí<br />
+                <b>Viết bởi</b>: admin<br />
+                <b>Ngày viết</b>: 15/07/2013 - 16:51:54</i>
+            </p>
+            <p>
+                Trước thềm trận chiến Việt Nam-Philippines tại sân Rajamangala, một nhóm cổ đông viên Việt Nam đã tập trung ở bên ngoài sân hò reo, cổ vũ, tất cả đều chung niềm tin vào một chiến thắng dành cho đoàn quân HLV Phan Thanh Hùng...
+            </p>
+            <p>
+                <p>Ở trận gặp Myanamar, khoảng 100 cổ động vi&ecirc;n Việt Nam đ&atilde; lặn lội từ qu&ecirc; nh&agrave; sang Bangkok với mong ước được cổ vũ cho c&aacute;c cầu thủ th&acirc;n y&ecirc;u. D&ugrave; đội nh&agrave; đ&atilde; đ&ocirc;i ch&uacute;t g&acirc;y thất vọng khi bị Myanmar cầm h&ograve;a 1-1, nhưng những người y&ecirc;u đội tuyển vẫn tin tưởng v&agrave;o một tương lai tươi s&aacute;ng.</p>
+
+<p>Thủ đ&ocirc; Bangkok tiếp tục đ&oacute;n th&ecirc;m những nh&oacute;m CĐV Việt Nam tới cổ vũ cho đội nh&agrave; v&agrave; theo ước t&iacute;nh, khoảng gần 300 CĐV sẽ c&oacute; mặt tại kh&aacute;n đ&agrave;i s&acirc;n Rajamangala chiều nay. Một nh&oacute;m người kh&ocirc;ng ngững h&ograve; reo, h&aacute;t vang quốc ca v&agrave; đồng thanh &ldquo;Việt Nam chiến thắng&rdquo;, &ldquo;Việt Nam v&ocirc; địch&rdquo;.</p>
+
+<p>Trao đổi với ph&oacute;ng vi&ecirc;n b&ecirc;n ngo&agrave;i kh&aacute;n đ&agrave;i s&acirc;n Rajamangala, người h&acirc;m mộ Việt Nam tại Th&aacute;i Lan đều chung quan điểm d&ugrave; Philippines l&agrave; đối thủ mạnh, ch&uacute;ng ta vẫn c&oacute; nhiều cơ hội để mơ về một chiến thắng, mở toang c&aacute;nh cửa gi&agrave;nh quyền v&agrave;o b&aacute;n kết. Tất cả đều hy vọng v&agrave;o kết cục tốt đẹp cho đo&agrave;n qu&acirc;n HLV Phan Thanh H&ugrave;ng.</p>
+
+<div><em>Một số h&igrave;nh ảnh của c&aacute;c CĐV Việt Nam tại b&ecirc;n ngo&agrave;i s&acirc;n Rajamangala chiều 27/11</em></div>
+
+<div>&nbsp;</div>
+
+<div><img alt="Các CĐV Việt Nam hò reo bên ngoài khán đài - Ảnh: An An" src="http://dantri4.vcmedia.vn/UjQgQgjU2baoHmB2Oa5Y/Image/2012/11/VN11-c6c91.jpg" /><br />
+C&aacute;c CĐV Việt Nam h&ograve; reo b&ecirc;n ngo&agrave;i kh&aacute;n đ&agrave;i - Ảnh: An An<br />
+<br />
+<img alt="Một CĐV thổi tù và... - Ảnh: An An" src="http://dantri4.vcmedia.vn/UjQgQgjU2baoHmB2Oa5Y/Image/2012/11/VN12-c6c91.jpg" /><br />
+Một CĐV thổi t&ugrave; v&agrave;... - Ảnh: An An<br />
+<br />
+<img alt="Người hâm mộ đều có niềm tin vào chiến thắng của ĐT Việt Nam - Ảnh: An An" src="http://dantri4.vcmedia.vn/UjQgQgjU2baoHmB2Oa5Y/Image/2012/11/VN13-c6c91.jpg" /><br />
+Người h&acirc;m mộ đều c&oacute; niềm tin v&agrave;o chiến thắng của ĐT Việt Nam - Ảnh: An An<br />
+<br />
+<img alt="Không khí sôi động bên ngoài sân Rajamangala - Ảnh: An An" src="http://dantri4.vcmedia.vn/UjQgQgjU2baoHmB2Oa5Y/Image/2012/11/VN14-c6c91.jpg" /><br />
+Kh&ocirc;ng kh&iacute; s&ocirc;i động b&ecirc;n ngo&agrave;i s&acirc;n Rajamangala - Ảnh: An An<br />
+<br />
+<img alt="Nụ cười rạng ngời của các cổ động viên Việt Nam - Ảnh: An An" src="http://dantri4.vcmedia.vn/UjQgQgjU2baoHmB2Oa5Y/Image/2012/11/VN15-c6c91.jpg" /><br />
+Nụ cười rạng ngời của c&aacute;c cổ động vi&ecirc;n Việt Nam - Ảnh: An An<br />
+<br />
+<img alt="Các CĐV sẵn sàng cho buổi ăn mừng chiến thắng của tuyển Việt Nam - Ảnh: An An" src="http://dantri4.vcmedia.vn/UjQgQgjU2baoHmB2Oa5Y/Image/2012/11/VN16-c6c91.jpg" /><br />
+C&aacute;c CĐV sẵn s&agrave;ng cho buổi ăn mừng chiến thắng của tuyển Việt Nam - Ảnh: An An<br />
+<br />
+<img alt="Tất cả hò reo không ngừng bên ngoài sân - Ảnh: An An" src="http://dantri4.vcmedia.vn/UjQgQgjU2baoHmB2Oa5Y/Image/2012/11/VN17-c6c91.jpg" /><br />
+Tất cả h&ograve; reo kh&ocirc;ng ngừng b&ecirc;n ngo&agrave;i s&acirc;n - Ảnh: An An<br />
+<br />
+<img alt="Một lượng lớn CĐV Việt Nam là việt kiều ở Thái Lan - Ảnh: An An" src="http://dantri4.vcmedia.vn/UjQgQgjU2baoHmB2Oa5Y/Image/2012/11/VN18-c6c91.jpg" /><br />
+Một lượng lớn CĐV Việt Nam l&agrave; việt kiều ở Th&aacute;i Lan - Ảnh: An An<br />
+<br />
+<img alt="Các nữ CĐV Việt Nam - Ảnh: An A" src="http://dantri4.vcmedia.vn/UjQgQgjU2baoHmB2Oa5Y/Image/2012/11/VN19-c6c91.jpg" /><br />
+C&aacute;c nữ CĐV Việt Nam - Ảnh: An An</div>
+
+<div><img alt="Người hâm mộ chờ đợi vào một chiến thắng trước Philippines - Ảnh: Kim Anh" src="http://dantri4.vcmedia.vn/UjQgQgjU2baoHmB2Oa5Y/Image/2012/11/Anh20-28ceb.jpg" /><br />
+Người h&acirc;m mộ chờ đợi v&agrave;o một chiến thắng trước Philippines - Ảnh: Kim Anh<br />
+<br />
+<img alt="Nhóm CĐV Việt Nam và Thái Lan cũng nhau hò reo - Ảnh: Kim Anh" src="http://dantri4.vcmedia.vn/UjQgQgjU2baoHmB2Oa5Y/Image/2012/11/Anh21-28ceb.jpg" /><br />
+Nh&oacute;m CĐV Việt Nam v&agrave; Th&aacute;i Lan cũng nhau h&ograve; reo - Ảnh: Kim Anh<br />
+<br />
+<img alt="Các nữ CĐV Việt Nam chờ đợi vào chiến thắng đội nhà - Ảnh: Kim Anh" src="http://dantri4.vcmedia.vn/UjQgQgjU2baoHmB2Oa5Y/Image/2012/11/Anh22-28ceb.jpg" /><br />
+C&aacute;c nữ CĐV Việt Nam chờ đợi v&agrave;o chiến thắng đội nh&agrave; - Ảnh: Kim Anh</div>
+
+<div><br />
+<strong>Kim Anh</strong></div>
+
+            </p>
+        </div>
+    <div id="comment">
+        <h2>Nhận Xét Bản Tin:</h2>
+        <div id="comment_content"></div>
+        <form name="fComment" id="fComment" action="#" method="post" style="display: none;">
+            <fieldset>
+                <legend>Nhập nội dung comment</legend>
+                <div id="comment_msg" align="center"></div>
+                <input type="hidden" name="news_id" id="news_id" value="8" />
+                <textarea name="txtComment" id="txtComment" rows="5" class="textbox"></textarea><br />
+                <input type="submit" name="btnComment" id="btnComment" value="Nhận xét" class="button" />
+            </fieldset>
+        </form>
+    </div>            </div><!-- End Main -->
+            <div class="clearfix"></div>
+        </div><!-- End Content -->
+        <div id="bottom">
+            Copyright &copy; 2013 by PHPCB77 - Việt Chuyên
+        </div><!-- End Bottom -->
+    </div><!-- End Layout -->
+
+</body>
+</html>

@@ -1,0 +1,247 @@
+/**
+ * @author Jackie Do
+ * @copyright 2012
+ */
+
+/* Toan khu vuc admin */
+body, td, th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #555555;
+}
+
+body {
+    width: 800px;
+    margin: auto;
+    background-color: #F7F7F7;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+img {
+    border: none;
+}
+
+fieldset {
+    padding: 5px;
+    border: 1px solid silver;
+    text-align: left;
+}
+
+legend {
+    text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 3px;
+}
+
+.form_label {
+    display: inline-block;
+    width: 120px;
+    vertical-align: middle;
+    padding: 3px;
+    text-align: right;
+    font-style: italic;
+}
+
+.form_item {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px;
+}
+
+.textbox {
+    width: 250px;
+    border: 1px solid silver;
+}
+
+.button {
+    padding: 3px 10px 3px 10px;
+    background-color: #A8D3FF;
+    border: 1px solid #51A8FF;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #FFCBB3;
+    border: 1px solid #FF702B;
+}
+
+.error_msg {
+    text-align: left;
+    font-style: italic;
+    color: black;
+    padding: 20px 5px 20px 60px;
+    border: 1px solid red;
+    background: pink url("images/warning.png") no-repeat 15px center;
+}
+/** Customize **/
+.error_msg {
+    list-style: none;
+}
+
+.result_msg {
+    text-align: left;
+    font-style: italic;
+    color: black;
+    padding: 20px 5px 20px 60px;
+    border: 1px solid green;
+    background: #C1FFE0 url("images/valid.png") no-repeat 15px center;
+}
+
+.list_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.list_th {
+    background-color: #E5E5E5;
+    font-weight: bold;
+    text-align: center;
+    color: #0080C0;
+    border: 1px solid silver;
+    padding: 3px;
+}
+
+.list_td {
+    border: 1px solid silver;
+    padding: 3px;
+}
+
+#top_banner {
+    margin-top: 20px;
+    background-image: url("images/top_bg.png");
+    line-height: 34px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+#nav_bar {
+    background-color: #E5E5E5;
+    padding: 3px;
+    font-weight: bold;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid silver;
+}
+
+#nav_bar a {
+    color: #555555;
+}
+
+#nav_bar a:hover {
+    color: #D74600;
+}
+
+#main_content {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+/* Thanh chuyen trang */
+#page_nav_bar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#page_nav_bar span.current_page {
+    margin: 0px 2px 0px 2px;
+    padding: 2px 5px 2px 5px;
+    background-color: #0080C0;
+    color: white;
+    font-weight: bold;
+}
+
+#page_nav_bar a {
+    margin: 0px 2px 0px 2px;
+    padding: 1px 4px 1px 4px;
+    border: 1px solid gray;
+    color: #555555;
+}
+
+#page_nav_bar a:hover {
+    margin: 0px 2px 0px 2px;
+    padding: 1px 4px 1px 4px;
+    border: 1px solid red;
+    background-color: pink;
+    color: black;
+}
+
+/* Main Page */
+.function_table {
+    border-spacing: 10px;
+    background-color: #F5F5F5;
+    border: 1px solid #D6D6D6;
+}
+
+.function_item {
+    border: 1px solid #D6D6D6;
+    width: 120px;
+    height: 40px;
+    padding: 85px 5px 5px 5px;
+    text-align: center;
+    background-color: white;
+}
+
+.function_item a {
+    color: #555555;
+}
+
+.function_item:hover {
+    background-color: #FFDDFF;
+    border: 1px solid #FFAEFF;
+}
+
+.function_item:hover a{
+    color: black;
+    font-weight: bold;
+}
+
+.log_panel {
+    width: 300px;
+    text-align: left;
+    vertical-align: top;
+    line-height: 20px;
+}
+
+.user_add {
+    background: white url("images/user_add.png") no-repeat center center;
+}
+
+.user_list {
+    background: white url("images/user.png") no-repeat center center;
+}
+
+.cate_add {
+    background: white url("images/category_add.png") no-repeat center center;
+}
+
+.cate_list {
+    background: white url("images/category.png") no-repeat center center;
+}
+
+.news_add {
+    background: white url("images/news_add.png") no-repeat center center;
+}
+
+.news_list {
+    background: white url("images/news.png") no-repeat center center;
+}
+
+/* Log In Page */
+.login_panel {
+    width: 200px;
+    height: 150px;
+    background: url("images/login_lock.png") no-repeat center center;
+}
